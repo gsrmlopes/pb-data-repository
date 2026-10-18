@@ -1,0 +1,195 @@
+{
+  "language": "Español",
+  "code": "es",
+  "version": "1.3.0",
+  "ui": {
+    "myLibrary": "Mi Biblioteca",
+    "dualScreenReady": "Lector listo para pantallas plegables dobles",
+    "booksCount": "{count} libros",
+    "bookCountSingle": "1 libro",
+    "syncDictionaries": "Sincronizar Diccionarios",
+    "syncing": "Sincronizando todos los diccionarios...",
+    "syncSuccess": "¡Todos los diccionarios actualizados desde el repositorio!",
+    "addBook": "Añadir Libro",
+    "importing": "Importando...",
+    "readingProgress": "Progreso de lectura",
+    "notes": "Notas",
+    "lastRead": "Última lectura",
+    "noBooks": "Aún no hay libros en la biblioteca. ¡Añade tu libro favorito arriba!",
+    "deleteBookConfirm": "¿Seguro que deseas eliminar este libro?",
+    "gridView": "Vista en cuadrícula",
+    "listView": "Vista en lista",
+    "chapter": "Capítulo",
+    "page": "Página",
+    "of": "de",
+    "sliders": "Ajustes",
+    "appearanceSettings": "Apariencia y Lectura",
+    "fontFamily": "Fuente",
+    "fontSize": "Tamaño de Fuente",
+    "lineHeight": "Interlineado",
+    "letterSpacing": "Espaciado de Letras",
+    "margins": "Márgenes",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "sepia": "Sepia",
+    "amoled": "AMOLED",
+    "animations": "Animaciones de Página",
+    "animationType": "Estilo de Animación",
+    "slide": "Deslizar",
+    "flip": "Voltear",
+    "fade": "Desvanecer",
+    "none": "Instantáneo",
+    "dualPageMode": "Modo Doble Página",
+    "autoFold": "Automático (Plegable)",
+    "singlePage": "Página Única",
+    "dualPage": "Doble Página",
+    "spineCrease": "Pliegue de Bisagra",
+    "safetyBorders": "Bordes Seguros de la APK",
+    "dictionaryTitle": "Diccionarios Offline y Traducción",
+    "lookup": "Buscar",
+    "searchPlaceholder": "Escribe una palabra para traducir...",
+    "translations": "Traducciones:",
+    "offlineNotice": "Todas las definiciones se guardan localmente en el dispositivo sin rastreadores.",
+    "gotIt": "Entendido",
+    "gesturesTitle": "Gestos y Navegación",
+    "touchGestures": "Gestos Táctiles en la APK Móvil",
+    "webAlternatives": "Alternativas para Web y Escritorio",
+    "closeBook": "Cerrar Libro",
+    "zoomIn": "Aumentar Zoom",
+    "zoomOut": "Reducir Zoom",
+    "pullToRefresh": "Arrastra hacia abajo para actualizar",
+    "releaseToRefresh": "Suelta para actualizar",
+    "refreshing": "Actualizando biblioteca...",
+    "language": "Idioma",
+    "selectLanguage": "Seleccionar Idioma de Interfaz"
+  },
+  "entries": {
+    "libro": {
+      "word": "libro",
+      "partOfSpeech": "sustantivo",
+      "definition": "Conjunto de muchas hojas de papel u otro material unidas por un lado.",
+      "translation": { "en": "book", "pt": "livro", "ru": "книга" },
+      "example": "Abrió el libro para comenzar a leer con entusiasmo."
+    },
+    "leer": {
+      "word": "leer",
+      "partOfSpeech": "verbo",
+      "definition": "Pasar la vista por lo escrito o impreso comprendiendo el significado.",
+      "translation": { "en": "read", "pt": "ler", "ru": "читать" },
+      "example": "Es enriquecedor leer una obra clásica cada mes."
+    },
+    "pagina": {
+      "word": "página",
+      "partOfSpeech": "sustantivo",
+      "definition": "Cada una de las dos caras de la hoja de un libro o cuaderno.",
+      "translation": { "en": "page", "pt": "página", "ru": "страница" },
+      "example": "Avanza a la página siguiente con un deslizamiento."
+    },
+    "capitulo": {
+      "word": "capítulo",
+      "partOfSpeech": "sustantivo",
+      "definition": "División que se hace en los libros para ordenar y facilitar la lectura.",
+      "translation": { "en": "chapter", "pt": "capítulo", "ru": "глава" },
+      "example": "Este capítulo ofrece un giro inesperado a la trama."
+    },
+    "historia": {
+      "word": "historia",
+      "partOfSpeech": "sustantivo",
+      "definition": "Narración y exposición de los acontecimientos pasados o imaginarios.",
+      "translation": { "en": "story", "pt": "história", "ru": "история" },
+      "example": "Una gran historia conmueve el corazón de quien la lee."
+    },
+    "conocimiento": {
+      "word": "conocimiento",
+      "partOfSpeech": "sustantivo",
+      "definition": "Acción y efecto de conocer; entendimiento, inteligencia y razón.",
+      "translation": { "en": "knowledge", "pt": "conhecimento", "ru": "знание" },
+      "example": "El conocimiento se profundiza leyendo buenos ensayos."
+    },
+    "palabra": {
+      "word": "palabra",
+      "partOfSpeech": "sustantivo",
+      "definition": "Unidad lingüística dotada de significado e intención.",
+      "translation": { "en": "word", "pt": "palavra", "ru": "слово" },
+      "example": "Elige cada palabra con esmero y precisión."
+    },
+    "luz": {
+      "word": "luz",
+      "partOfSpeech": "sustantivo",
+      "definition": "Agente físico que hace visibles los objetos ante la vista humana.",
+      "translation": { "en": "light", "pt": "luz", "ru": "свет" },
+      "example": "La luz cálida permite leer cómodamente por la noche."
+    },
+    "doblar": {
+      "word": "doblar",
+      "partOfSpeech": "verbo",
+      "definition": "Plegar o hacer que algo flexible tome forma curva o articulada.",
+      "translation": { "en": "fold", "pt": "dobrar", "ru": "складывать" },
+      "example": "Al doblar el lector móvil, se activa el modo de doble página."
+    },
+    "guerra": {
+      "word": "guerra",
+      "partOfSpeech": "sustantivo",
+      "definition": "Lucha armada prolongada entre dos o más naciones o facciones.",
+      "translation": { "en": "war", "pt": "guerra", "ru": "война" },
+      "example": "El Arte de la Guerra enseña a triunfar mediante la estrategia."
+    },
+    "paz": {
+      "word": "paz",
+      "partOfSpeech": "sustantivo",
+      "definition": "Situación de tranquilidad y sosiego sin conflictos armados.",
+      "translation": { "en": "peace", "pt": "paz", "ru": "мир" },
+      "example": "La lectura invita a una paz profunda y reflexiva."
+    },
+    "mente": {
+      "word": "mente",
+      "partOfSpeech": "sustantivo",
+      "definition": "Potencia intelectual y reflexiva del alma o conciencia humana.",
+      "translation": { "en": "mind", "pt": "mente", "ru": "разум" },
+      "example": "Una mente abierta aprende de cada punto de vista."
+    },
+    "libertad": {
+      "word": "libertad",
+      "partOfSpeech": "sustantivo",
+      "definition": "Facultad natural que tiene el hombre de obrar de una manera o de otra.",
+      "translation": { "en": "freedom", "pt": "liberdade", "ru": "свобода" },
+      "example": "Los libros son los pilares de la libertad humana."
+    },
+    "mundo": {
+      "word": "mundo",
+      "partOfSpeech": "sustantivo",
+      "definition": "Conjunto de todo lo existente; el planeta Tierra con sus habitantes.",
+      "translation": { "en": "world", "pt": "mundo", "ru": "мир" },
+      "example": "Un Mundo Feliz describe una sociedad distópica."
+    },
+    "tiempo": {
+      "word": "tiempo",
+      "partOfSpeech": "sustantivo",
+      "definition": "Magnitud física que permite ordenar la secuencia de los sucesos.",
+      "translation": { "en": "time", "pt": "tempo", "ru": "время" },
+      "example": "Dedicar tiempo a la lectura es alimentar el espíritu."
+    },
+    "sueno": {
+      "word": "sueño",
+      "partOfSpeech": "sustantivo",
+      "definition": "Acto de representarse en la fantasía sucesos o imágenes mientras se duerme.",
+      "translation": { "en": "dream", "pt": "sonho", "ru": "сон" },
+      "example": "Gregor despertó de un sueño inquietante y perturbador."
+    },
+    "verdad": {
+      "word": "verdad",
+      "partOfSpeech": "sustantivo",
+      "definition": "Conformidad de las cosas con el concepto que de ellas forma la mente.",
+      "translation": { "en": "truth", "pt": "verdade", "ru": "правда" },
+      "example": "La literatura busca revelar la verdad de la condición humana."
+    },
+    "arte": {
+      "word": "arte",
+      "partOfSpeech": "sustantivo",
+      "definition": "Manifestación de la actividad humana mediante la cual se expresa una visión de la realidad.",
+      "translation": { "en": "art", "pt": "arte", "ru": "искусство" },
+      "example": "Escribir bien requiere disciplina y verdadero arte."
+    }
+  }
+}

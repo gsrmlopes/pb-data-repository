@@ -1,0 +1,195 @@
+{
+  "language": "Português (Brasil)",
+  "code": "pt-br",
+  "version": "1.3.0",
+  "ui": {
+    "myLibrary": "Minha Biblioteca",
+    "dualScreenReady": "Leitor preparado para telas dobráveis duplas",
+    "booksCount": "{count} livros",
+    "bookCountSingle": "1 livro",
+    "syncDictionaries": "Sincronizar Dicionários",
+    "syncing": "Sincronizando todos os dicionários...",
+    "syncSuccess": "Todos os dicionários atualizados do repositório!",
+    "addBook": "Adicionar Livro",
+    "importing": "Importando...",
+    "readingProgress": "Progresso de leitura",
+    "notes": "Anotações",
+    "lastRead": "Última leitura",
+    "noBooks": "Nenhum livro na biblioteca ainda. Adicione seu livro favorito acima!",
+    "deleteBookConfirm": "Tem certeza de que deseja excluir este livro?",
+    "gridView": "Exibição em grade",
+    "listView": "Exibição em lista",
+    "chapter": "Capítulo",
+    "page": "Página",
+    "of": "de",
+    "sliders": "Configurações",
+    "appearanceSettings": "Aparência e Leitor",
+    "fontFamily": "Fonte",
+    "fontSize": "Tamanho da Fonte",
+    "lineHeight": "Espaçamento entre Linhas",
+    "letterSpacing": "Espaçamento de Letras",
+    "margins": "Margens",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "sepia": "Sépia",
+    "amoled": "AMOLED",
+    "animations": "Animações de Página",
+    "animationType": "Estilo de Animação",
+    "slide": "Deslizar",
+    "flip": "Virar",
+    "fade": "Esmaecer",
+    "none": "Instantâneo",
+    "dualPageMode": "Modo de Duas Páginas",
+    "autoFold": "Automático (Dobrável)",
+    "singlePage": "Página Única",
+    "dualPage": "Duas Páginas",
+    "spineCrease": "Vinco da Dobradiça",
+    "safetyBorders": "Bordas de Segurança do APK",
+    "dictionaryTitle": "Dicionários Offline e Tradução",
+    "lookup": "Pesquisar",
+    "searchPlaceholder": "Digite uma palavra para traduzir...",
+    "translations": "Traduções:",
+    "offlineNotice": "Todas as definições ficam armazenadas localmente no dispositivo sem rastreadores.",
+    "gotIt": "Entendi",
+    "gesturesTitle": "Gestos e Navegação",
+    "touchGestures": "Gestos de Toque no APK Mobile",
+    "webAlternatives": "Alternativas para Web e Desktop",
+    "closeBook": "Fechar Livro",
+    "zoomIn": "Aumentar Zoom",
+    "zoomOut": "Diminuir Zoom",
+    "pullToRefresh": "Puxe para baixo para atualizar",
+    "releaseToRefresh": "Solte para atualizar",
+    "refreshing": "Atualizando biblioteca...",
+    "language": "Idioma",
+    "selectLanguage": "Selecionar Idioma da Interface"
+  },
+  "entries": {
+    "livro": {
+      "word": "livro",
+      "partOfSpeech": "substantivo",
+      "definition": "Conjunto de folhas de papel ou suporte digital contendo texto ou ilustrações.",
+      "translation": { "en": "book", "es": "libro", "ru": "книга" },
+      "example": "Ele comprou um livro de ficção científica."
+    },
+    "ler": {
+      "word": "ler",
+      "partOfSpeech": "verbo",
+      "definition": "Decifrar e interpretar signos gráficos escritos ou impressos.",
+      "translation": { "en": "read", "es": "leer", "ru": "читать" },
+      "example": "Gosto de ler à noite em luz suave."
+    },
+    "pagina": {
+      "word": "página",
+      "partOfSpeech": "substantivo",
+      "definition": "Cada uma das duas faces de uma folha de livro ou documento.",
+      "translation": { "en": "page", "es": "página", "ru": "страница" },
+      "example": "Vire a página com um simples toque."
+    },
+    "capitulo": {
+      "word": "capítulo",
+      "partOfSpeech": "substantivo",
+      "definition": "Divisão temática ou cronológica de uma obra literária.",
+      "translation": { "en": "chapter", "es": "capítulo", "ru": "глава" },
+      "example": "O primeiro capítulo apresenta os protagonistas."
+    },
+    "historia": {
+      "word": "história",
+      "partOfSpeech": "substantivo",
+      "definition": "Narrativa de eventos reais ou imaginários; enredo.",
+      "translation": { "en": "story", "es": "historia", "ru": "история" },
+      "example": "Uma história bem contada transforma o leitor."
+    },
+    "conhecimento": {
+      "word": "conhecimento",
+      "partOfSpeech": "substantivo",
+      "definition": "Ato ou efeito de conhecer; compreensão e saber acumulado.",
+      "translation": { "en": "knowledge", "es": "conocimiento", "ru": "знание" },
+      "example": "A leitura contínua constrói conhecimento sólido."
+    },
+    "palavra": {
+      "word": "palavra",
+      "partOfSpeech": "substantivo",
+      "definition": "Unidade fundamental da linguagem que expressa um conceito.",
+      "translation": { "en": "word", "es": "palabra", "ru": "слово" },
+      "example": "Cada palavra tem peso poético na poesia."
+    },
+    "luz": {
+      "word": "luz",
+      "partOfSpeech": "substantivo",
+      "definition": "Radiação eletromagnética visível que ilumina o ambiente.",
+      "translation": { "en": "light", "es": "luz", "ru": "свет" },
+      "example": "O tema sépia emite uma luz suave e agradável."
+    },
+    "dobrar": {
+      "word": "dobrar",
+      "partOfSpeech": "verbo",
+      "definition": "Fletir uma superfície ou dobrar um dispositivo com tela flexível.",
+      "translation": { "en": "fold", "es": "doblar", "ru": "складывать" },
+      "example": "Ao dobrar o telefone, a leitura divide-se em duas páginas."
+    },
+    "guerra": {
+      "word": "guerra",
+      "partOfSpeech": "substantivo",
+      "definition": "Conflito armado entre nações, governos ou forças antagônicas.",
+      "translation": { "en": "war", "es": "guerra", "ru": "война" },
+      "example": "A Arte da Guerra é um tratado militar milenar."
+    },
+    "paz": {
+      "word": "paz",
+      "partOfSpeech": "substantivo",
+      "definition": "Estado de harmonia, serenidade e ausência de violência.",
+      "translation": { "en": "peace", "es": "paz", "ru": "мир" },
+      "example": "Ler proporciona momentos de profunda paz."
+    },
+    "mente": {
+      "word": "mente",
+      "partOfSpeech": "substantivo",
+      "definition": "Capacidade cognitiva e intelectual humana de pensar e refletir.",
+      "translation": { "en": "mind", "es": "mente", "ru": "разум" },
+      "example": "Exercite sua mente explorando novos gêneros literários."
+    },
+    "liberdade": {
+      "word": "liberdade",
+      "partOfSpeech": "substantivo",
+      "definition": "Faculdade que tem o ser humano de se autodeterminar sem coerção.",
+      "translation": { "en": "freedom", "es": "libertad", "ru": "свобода" },
+      "example": "A liberdade de pensamento floresce com a literatura."
+    },
+    "mundo": {
+      "word": "mundo",
+      "partOfSpeech": "substantivo",
+      "definition": "O planeta Terra ou a totalidade da existência humana.",
+      "translation": { "en": "world", "es": "mundo", "ru": "мир" },
+      "example": "Admirável Mundo Novo retrata um futuro automatizado."
+    },
+    "tempo": {
+      "word": "tempo",
+      "partOfSpeech": "substantivo",
+      "definition": "Duração relativa dos acontecimentos que cria o passado, presente e futuro.",
+      "translation": { "en": "time", "es": "tiempo", "ru": "время" },
+      "example": "O tempo voa quando o enredo é empolgante."
+    },
+    "sonho": {
+      "word": "sonho",
+      "partOfSpeech": "substantivo",
+      "definition": "Conjunto de imagens e ideias que surgem na mente durante o sono.",
+      "translation": { "en": "dream", "es": "sueño", "ru": "сон" },
+      "example": "Gregor despertou de sonhos intranquilos."
+    },
+    "verdade": {
+      "word": "verdade",
+      "partOfSpeech": "substantivo",
+      "definition": "Conformidade com os fatos ou com a realidade.",
+      "translation": { "en": "truth", "es": "verdad", "ru": "правда" },
+      "example": "A ficção nos ajuda a compreender a verdade da vida."
+    },
+    "arte": {
+      "word": "arte",
+      "partOfSpeech": "substantivo",
+      "definition": "Manifestação da atividade humana com finalidade estética ou comunicativa.",
+      "translation": { "en": "art", "es": "arte", "ru": "искусство" },
+      "example": "A arte literária enriquece a nossa experiência interior."
+    }
+  }
+}

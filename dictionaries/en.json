@@ -1,0 +1,209 @@
+{
+  "language": "English",
+  "code": "en",
+  "version": "1.3.0",
+  "ui": {
+    "myLibrary": "My Library",
+    "dualScreenReady": "Foldable dual-screen ready reader",
+    "booksCount": "{count} books",
+    "bookCountSingle": "1 book",
+    "syncDictionaries": "Sync Dictionaries",
+    "syncing": "Syncing all dictionaries...",
+    "syncSuccess": "All dictionaries updated from repository!",
+    "addBook": "Add Book",
+    "importing": "Importing...",
+    "readingProgress": "Reading progress",
+    "notes": "Notes",
+    "lastRead": "Last read",
+    "noBooks": "No books in library yet. Add your favorite book above!",
+    "deleteBookConfirm": "Are you sure you want to delete this book?",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "chapter": "Chapter",
+    "page": "Page",
+    "of": "of",
+    "sliders": "Settings",
+    "appearanceSettings": "Appearance & Reader Settings",
+    "fontFamily": "Font Family",
+    "fontSize": "Font Size",
+    "lineHeight": "Line Height",
+    "letterSpacing": "Letter Spacing",
+    "margins": "Margins",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "sepia": "Sepia",
+    "amoled": "AMOLED",
+    "animations": "Page Turn Animations",
+    "animationType": "Animation Style",
+    "slide": "Slide",
+    "flip": "Flip",
+    "fade": "Fade",
+    "none": "Instant",
+    "dualPageMode": "Dual Page Layout",
+    "autoFold": "Auto (Foldable)",
+    "singlePage": "Single",
+    "dualPage": "Dual",
+    "spineCrease": "Hinge Spine Crease",
+    "safetyBorders": "APK Safety Borders",
+    "dictionaryTitle": "Offline Dictionaries & Translation",
+    "lookup": "Lookup",
+    "searchPlaceholder": "Enter word to translate...",
+    "translations": "Translations:",
+    "offlineNotice": "All definitions are stored locally on device without network trackers.",
+    "gotIt": "Got it",
+    "gesturesTitle": "Gestures & Navigation",
+    "touchGestures": "Touch & Mobile APK Gestures",
+    "webAlternatives": "Web & Desktop Alternatives",
+    "closeBook": "Close Book",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "pullToRefresh": "Pull down to refresh",
+    "releaseToRefresh": "Release to refresh",
+    "refreshing": "Refreshing library...",
+    "language": "Language",
+    "selectLanguage": "Select Interface Language"
+  },
+  "entries": {
+    "book": {
+      "word": "book",
+      "partOfSpeech": "noun",
+      "definition": "A written or printed work consisting of pages bound along one side.",
+      "translation": { "pt": "livro", "es": "libro", "ru": "книга" },
+      "example": "He sat in the chair reading an intriguing book."
+    },
+    "read": {
+      "word": "read",
+      "partOfSpeech": "verb",
+      "definition": "Look at and comprehend the meaning of written or printed matter.",
+      "translation": { "pt": "ler", "es": "leer", "ru": "читать" },
+      "example": "She likes to read every evening before sleeping."
+    },
+    "page": {
+      "word": "page",
+      "partOfSpeech": "noun",
+      "definition": "One side of a leaf of something written or printed.",
+      "translation": { "pt": "página", "es": "página", "ru": "страница" },
+      "example": "Turn to page forty-two."
+    },
+    "fold": {
+      "word": "fold",
+      "partOfSpeech": "verb",
+      "definition": "Bend something over on itself so that one part covers another.",
+      "translation": { "pt": "dobrar", "es": "doblar", "ru": "складывать" },
+      "example": "Fold the sheet carefully in half."
+    },
+    "chapter": {
+      "word": "chapter",
+      "partOfSpeech": "noun",
+      "definition": "A main division of a book, typically with a number or title.",
+      "translation": { "pt": "capítulo", "es": "capítulo", "ru": "глава" },
+      "example": "The first chapter hooked the reader immediately."
+    },
+    "story": {
+      "word": "story",
+      "partOfSpeech": "noun",
+      "definition": "An account of imaginary or real people and events told for entertainment.",
+      "translation": { "pt": "história", "es": "historia", "ru": "история" },
+      "example": "The storyteller captivated everyone in the room."
+    },
+    "knowledge": {
+      "word": "knowledge",
+      "partOfSpeech": "noun",
+      "definition": "Facts, information, and skills acquired through experience or education.",
+      "translation": { "pt": "conhecimento", "es": "conocimiento", "ru": "знание" },
+      "example": "Books are an infinite fountain of knowledge."
+    },
+    "word": {
+      "word": "word",
+      "partOfSpeech": "noun",
+      "definition": "A single distinct meaningful element of speech or writing.",
+      "translation": { "pt": "palavra", "es": "palabra", "ru": "слово" },
+      "example": "Choose your words with deliberation."
+    },
+    "light": {
+      "word": "light",
+      "partOfSpeech": "noun",
+      "definition": "The natural agent that stimulates sight and makes things visible.",
+      "translation": { "pt": "luz", "es": "luz", "ru": "свет" },
+      "example": "Warm amber light illuminated the reader screen."
+    },
+    "journey": {
+      "word": "journey",
+      "partOfSpeech": "noun",
+      "definition": "An act of traveling from one place to another or through an adventure.",
+      "translation": { "pt": "jornada", "es": "viaje", "ru": "путешествие" },
+      "example": "Every novel is an unforgettable journey."
+    },
+    "war": {
+      "word": "war",
+      "partOfSpeech": "noun",
+      "definition": "A state of armed conflict between different nations or states.",
+      "translation": { "pt": "guerra", "es": "guerra", "ru": "война" },
+      "example": "The Art of War discusses strategic military deception."
+    },
+    "peace": {
+      "word": "peace",
+      "partOfSpeech": "noun",
+      "definition": "Freedom from disturbance; tranquility or harmonious existence.",
+      "translation": { "pt": "paz", "es": "paz", "ru": "мир" },
+      "example": "True peace begins with inner serenity."
+    },
+    "mind": {
+      "word": "mind",
+      "partOfSpeech": "noun",
+      "definition": "The element of a person that enables them to be aware of the world and their experiences.",
+      "translation": { "pt": "mente", "es": "mente", "ru": "разум" },
+      "example": "Reading expands the horizons of the mind."
+    },
+    "courage": {
+      "word": "courage",
+      "partOfSpeech": "noun",
+      "definition": "The ability to do something that frightens one; bravery.",
+      "translation": { "pt": "coragem", "es": "coraje", "ru": "мужество" },
+      "example": "The general showed great courage in difficult circumstances."
+    },
+    "freedom": {
+      "word": "freedom",
+      "partOfSpeech": "noun",
+      "definition": "The power or right to act, speak, or think as one wants without hindrance.",
+      "translation": { "pt": "liberdade", "es": "libertad", "ru": "свобода" },
+      "example": "Books preserve human intellectual freedom."
+    },
+    "world": {
+      "word": "world",
+      "partOfSpeech": "noun",
+      "definition": "The earth, together with all of its countries and peoples.",
+      "translation": { "pt": "mundo", "es": "mundo", "ru": "мир" },
+      "example": "Brave New World explores a dystopian technological future."
+    },
+    "time": {
+      "word": "time",
+      "partOfSpeech": "noun",
+      "definition": "The indefinite continued progress of existence and events in the past, present, and future.",
+      "translation": { "pt": "tempo", "es": "tiempo", "ru": "время" },
+      "example": "Take your time to savor every chapter."
+    },
+    "dream": {
+      "word": "dream",
+      "partOfSpeech": "noun",
+      "definition": "A series of thoughts, images, and sensations occurring in a person's mind during sleep.",
+      "translation": { "pt": "sonho", "es": "sueño", "ru": "сон" },
+      "example": "Gregor Samsa woke from troubled dreams."
+    },
+    "truth": {
+      "word": "truth",
+      "partOfSpeech": "noun",
+      "definition": "The quality or state of being true, genuine, or in accordance with fact.",
+      "translation": { "pt": "verdade", "es": "verdad", "ru": "правда" },
+      "example": "Literature often reveals profound philosophical truth."
+    },
+    "art": {
+      "word": "art",
+      "partOfSpeech": "noun",
+      "definition": "The expression or application of human creative skill and imagination.",
+      "translation": { "pt": "arte", "es": "arte", "ru": "искусство" },
+      "example": "Writing is both a craft and an art."
+    }
+  }
+}
