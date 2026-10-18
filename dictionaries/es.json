@@ -1,7 +1,7 @@
 {
   "language": "Español",
   "code": "es",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "ui": {
     "myLibrary": "Mi Biblioteca",
     "dualScreenReady": "Lector listo para pantallas plegables dobles",
@@ -21,6 +21,8 @@
     "listView": "Vista en lista",
     "chapter": "Capítulo",
     "page": "Página",
+    "pages": "páginas",
+    "words": "palabras",
     "of": "de",
     "sliders": "Ajustes",
     "appearanceSettings": "Apariencia y Lectura",
@@ -62,134 +64,750 @@
     "releaseToRefresh": "Suelta para actualizar",
     "refreshing": "Actualizando biblioteca...",
     "language": "Idioma",
-    "selectLanguage": "Seleccionar Idioma de Interfaz"
+    "selectLanguage": "Seleccionar Idioma de Interfaz",
+    "suwayomiManga": "Suwayomi Manga",
+    "endOfComic": "Fin del cómic",
+    "endOfChapter": "Fin del capítulo"
   },
   "entries": {
     "libro": {
       "word": "libro",
       "partOfSpeech": "sustantivo",
-      "definition": "Conjunto de muchas hojas de papel u otro material unidas por un lado.",
-      "translation": { "en": "book", "pt": "livro", "ru": "книга" },
-      "example": "Abrió el libro para comenzar a leer con entusiasmo."
+      "definition": "Conjunto de hojas encuadernadas o digitales que forman una obra literaria.",
+      "example": "Abrió el libro antiguo de cuero con reverencia.",
+      "translation": {
+        "en": "book",
+        "zh": "书",
+        "hi": "पुस्तक",
+        "es": "libro",
+        "pt": "livro",
+        "ar": "كتاب",
+        "bn": "বই",
+        "fr": "livre",
+        "ru": "книга",
+        "ur": "کتاب"
+      }
     },
     "leer": {
       "word": "leer",
       "partOfSpeech": "verbo",
-      "definition": "Pasar la vista por lo escrito o impreso comprendiendo el significado.",
-      "translation": { "en": "read", "pt": "ler", "ru": "читать" },
-      "example": "Es enriquecedor leer una obra clásica cada mes."
+      "definition": "Interpretar y comprender el sentido de un texto escrito.",
+      "example": "Le encanta leer epopeyas históricas bajo la cálida luz.",
+      "translation": {
+        "en": "read",
+        "zh": "读",
+        "hi": "पढ़ना",
+        "es": "leer",
+        "pt": "ler",
+        "ar": "قراءة",
+        "bn": "পড়া",
+        "fr": "lire",
+        "ru": "читать",
+        "ur": "پڑھنا"
+      }
     },
     "pagina": {
       "word": "página",
       "partOfSpeech": "sustantivo",
       "definition": "Cada una de las dos caras de la hoja de un libro o cuaderno.",
-      "translation": { "en": "page", "pt": "página", "ru": "страница" },
+      "translation": {
+        "en": "page",
+        "pt": "página",
+        "ru": "страница"
+      },
       "example": "Avanza a la página siguiente con un deslizamiento."
     },
     "capitulo": {
       "word": "capítulo",
       "partOfSpeech": "sustantivo",
       "definition": "División que se hace en los libros para ordenar y facilitar la lectura.",
-      "translation": { "en": "chapter", "pt": "capítulo", "ru": "глава" },
+      "translation": {
+        "en": "chapter",
+        "pt": "capítulo",
+        "ru": "глава"
+      },
       "example": "Este capítulo ofrece un giro inesperado a la trama."
     },
     "historia": {
       "word": "historia",
       "partOfSpeech": "sustantivo",
-      "definition": "Narración y exposición de los acontecimientos pasados o imaginarios.",
-      "translation": { "en": "story", "pt": "história", "ru": "история" },
-      "example": "Una gran historia conmueve el corazón de quien la lee."
+      "definition": "Narración de sucesos reales o imaginarios con argumento.",
+      "example": "Todo héroe tiene una historia de origen en la tradición.",
+      "translation": {
+        "en": "story",
+        "pt": "história",
+        "es": "historia",
+        "ru": "история"
+      }
     },
     "conocimiento": {
       "word": "conocimiento",
       "partOfSpeech": "sustantivo",
-      "definition": "Acción y efecto de conocer; entendimiento, inteligencia y razón.",
-      "translation": { "en": "knowledge", "pt": "conhecimento", "ru": "знание" },
-      "example": "El conocimiento se profundiza leyendo buenos ensayos."
+      "definition": "Facultad de comprender la naturaleza y relaciones de las cosas.",
+      "example": "Los libros son portales del conocimiento humano acumulado.",
+      "translation": {
+        "en": "knowledge",
+        "zh": "知识",
+        "hi": "ज्ञान",
+        "es": "conocimiento",
+        "pt": "conhecimento",
+        "ar": "معرفة",
+        "bn": "জ্ঞান",
+        "fr": "connaissance",
+        "ru": "знание",
+        "ur": "علم"
+      }
     },
     "palabra": {
       "word": "palabra",
       "partOfSpeech": "sustantivo",
-      "definition": "Unidad lingüística dotada de significado e intención.",
-      "translation": { "en": "word", "pt": "palavra", "ru": "слово" },
-      "example": "Elige cada palabra con esmero y precisión."
+      "definition": "Unidad lingüística con significado y articulación propia.",
+      "example": "Cada palabra seleccionada resuena en la prosa poética.",
+      "translation": {
+        "en": "word",
+        "pt": "palavra",
+        "es": "palabra",
+        "ru": "слово"
+      }
     },
     "luz": {
       "word": "luz",
       "partOfSpeech": "sustantivo",
-      "definition": "Agente físico que hace visibles los objetos ante la vista humana.",
-      "translation": { "en": "light", "pt": "luz", "ru": "свет" },
-      "example": "La luz cálida permite leer cómodamente por la noche."
+      "definition": "Radiación visible que ilumina superficies y pantallas.",
+      "example": "Ajustar la luz ambiental mejora el contraste de lectura.",
+      "translation": {
+        "en": "light",
+        "pt": "luz",
+        "es": "luz",
+        "ru": "свет"
+      }
     },
     "doblar": {
       "word": "doblar",
       "partOfSpeech": "verbo",
-      "definition": "Plegar o hacer que algo flexible tome forma curva o articulada.",
-      "translation": { "en": "fold", "pt": "dobrar", "ru": "складывать" },
-      "example": "Al doblar el lector móvil, se activa el modo de doble página."
+      "definition": "Plegar una superficie sobre sí misma; mecanismo de teléfono plegable.",
+      "example": "El lector divide el texto suavemente sobre el pliegue.",
+      "translation": {
+        "en": "fold",
+        "pt": "dobrar",
+        "es": "doblar",
+        "ru": "складывать"
+      }
     },
     "guerra": {
       "word": "guerra",
       "partOfSpeech": "sustantivo",
       "definition": "Lucha armada prolongada entre dos o más naciones o facciones.",
-      "translation": { "en": "war", "pt": "guerra", "ru": "война" },
+      "translation": {
+        "en": "war",
+        "pt": "guerra",
+        "ru": "война"
+      },
       "example": "El Arte de la Guerra enseña a triunfar mediante la estrategia."
     },
     "paz": {
       "word": "paz",
       "partOfSpeech": "sustantivo",
       "definition": "Situación de tranquilidad y sosiego sin conflictos armados.",
-      "translation": { "en": "peace", "pt": "paz", "ru": "мир" },
+      "translation": {
+        "en": "peace",
+        "pt": "paz",
+        "ru": "мир"
+      },
       "example": "La lectura invita a una paz profunda y reflexiva."
     },
     "mente": {
       "word": "mente",
       "partOfSpeech": "sustantivo",
-      "definition": "Potencia intelectual y reflexiva del alma o conciencia humana.",
-      "translation": { "en": "mind", "pt": "mente", "ru": "разум" },
-      "example": "Una mente abierta aprende de cada punto de vista."
+      "definition": "Capacidad de la conciencia, el entendimiento y la memoria.",
+      "example": "Los libros expanden las fronteras de la mente humana.",
+      "translation": {
+        "en": "mind",
+        "pt": "mente",
+        "es": "mente",
+        "ru": "разум"
+      }
     },
     "libertad": {
       "word": "libertad",
       "partOfSpeech": "sustantivo",
-      "definition": "Facultad natural que tiene el hombre de obrar de una manera o de otra.",
-      "translation": { "en": "freedom", "pt": "liberdade", "ru": "свобода" },
-      "example": "Los libros son los pilares de la libertad humana."
+      "definition": "Capacidad humana de obrar según la propia voluntad responsable.",
+      "example": "La historia ensalzó la libertad frente al control.",
+      "translation": {
+        "en": "freedom",
+        "pt": "liberdade",
+        "es": "libertad",
+        "ru": "свобода"
+      }
     },
     "mundo": {
       "word": "mundo",
       "partOfSpeech": "sustantivo",
-      "definition": "Conjunto de todo lo existente; el planeta Tierra con sus habitantes.",
-      "translation": { "en": "world", "pt": "mundo", "ru": "мир" },
-      "example": "Un Mundo Feliz describe una sociedad distópica."
+      "definition": "Universo imaginario o realidad contextual de una obra.",
+      "example": "El escritor de ciencia ficción ideó un mundo asombroso.",
+      "translation": {
+        "en": "world",
+        "pt": "mundo",
+        "es": "mundo",
+        "ru": "мир"
+      }
     },
     "tiempo": {
       "word": "tiempo",
       "partOfSpeech": "sustantivo",
-      "definition": "Magnitud física que permite ordenar la secuencia de los sucesos.",
-      "translation": { "en": "time", "pt": "tempo", "ru": "время" },
-      "example": "Dedicar tiempo a la lectura es alimentar el espíritu."
+      "definition": "Dimensión en la que transcurren sucesivamente los acontecimientos.",
+      "example": "La narración no lineal viaja entre pasado y presente.",
+      "translation": {
+        "en": "time",
+        "pt": "tempo",
+        "es": "tiempo",
+        "ru": "время"
+      }
     },
     "sueno": {
       "word": "sueño",
       "partOfSpeech": "sustantivo",
       "definition": "Acto de representarse en la fantasía sucesos o imágenes mientras se duerme.",
-      "translation": { "en": "dream", "pt": "sonho", "ru": "сон" },
+      "translation": {
+        "en": "dream",
+        "pt": "sonho",
+        "ru": "сон"
+      },
       "example": "Gregor despertó de un sueño inquietante y perturbador."
     },
     "verdad": {
       "word": "verdad",
       "partOfSpeech": "sustantivo",
-      "definition": "Conformidad de las cosas con el concepto que de ellas forma la mente.",
-      "translation": { "en": "truth", "pt": "verdade", "ru": "правда" },
-      "example": "La literatura busca revelar la verdad de la condición humana."
+      "definition": "Conformidad de las cosas con el concepto que de ellas tiene el entendimiento.",
+      "example": "La filosofía cuestiona apariencias en pos de la verdad.",
+      "translation": {
+        "en": "truth",
+        "pt": "verdade",
+        "es": "verdad",
+        "ru": "истина"
+      }
     },
     "arte": {
       "word": "arte",
       "partOfSpeech": "sustantivo",
-      "definition": "Manifestación de la actividad humana mediante la cual se expresa una visión de la realidad.",
-      "translation": { "en": "art", "pt": "arte", "ru": "искусство" },
-      "example": "Escribir bien requiere disciplina y verdadero arte."
+      "definition": "Expresión de la creatividad y sensibilidad estética humana.",
+      "example": "El arte de las viñetas narra historias mediante ilustraciones.",
+      "translation": {
+        "en": "art",
+        "pt": "arte",
+        "es": "arte",
+        "ru": "искусство"
+      }
+    },
+    "biblioteca": {
+      "word": "biblioteca",
+      "partOfSpeech": "sustantivo",
+      "definition": "Colección organizada de libros y textos digitales.",
+      "example": "La biblioteca digital se sincronizó en todos sus dispositivos.",
+      "translation": {
+        "en": "library",
+        "zh": "书库",
+        "hi": "पुस्तकालय",
+        "es": "biblioteca",
+        "pt": "biblioteca",
+        "ar": "مكتبة",
+        "bn": "লাইব্রেরি",
+        "fr": "bibliothèque",
+        "ru": "библиотека",
+        "ur": "لائبریری"
+      }
+    },
+    "cómic": {
+      "word": "cómic",
+      "partOfSpeech": "sustantivo",
+      "definition": "Relato gráfico secuencial que combina viñetas y texto.",
+      "example": "El cómic destacó por su narrativa visual envolvente.",
+      "translation": {
+        "en": "comic",
+        "zh": "漫画",
+        "hi": "कॉमिक",
+        "es": "cómic",
+        "pt": "quadrinho",
+        "ar": "قصة مصورة",
+        "bn": "কমিক",
+        "fr": "bande dessinée",
+        "ru": "комикс",
+        "ur": "کامک"
+      }
+    },
+    "manga": {
+      "word": "manga",
+      "partOfSpeech": "sustantivo",
+      "definition": "Cómic japonés que se lee tradicionalmente de derecha a izquierda.",
+      "example": "Configuró el lector en modo derecha a izquierda para el manga.",
+      "translation": {
+        "en": "manga",
+        "zh": "日漫",
+        "hi": "मंगा",
+        "es": "manga",
+        "pt": "mangá",
+        "ar": "مانغا",
+        "bn": "মাঙ্গা",
+        "fr": "manga",
+        "ru": "манга",
+        "ur": "مانگا"
+      }
+    },
+    "capítulo": {
+      "word": "capítulo",
+      "partOfSpeech": "sustantivo",
+      "definition": "División principal de un libro u obra literaria.",
+      "example": "El primer capítulo introdujo el dilema filosófico.",
+      "translation": {
+        "en": "chapter",
+        "zh": "章节",
+        "hi": "अध्याय",
+        "es": "capítulo",
+        "pt": "capítulo",
+        "ar": "فصل",
+        "bn": "অধ্যায়",
+        "fr": "chapitre",
+        "ru": "глава",
+        "ur": "باب"
+      }
+    },
+    "página": {
+      "word": "página",
+      "partOfSpeech": "sustantivo",
+      "definition": "Cada una de las caras de una hoja o pantalla de lectura.",
+      "example": "Pasó la página con un suave gesto táctil.",
+      "translation": {
+        "en": "page",
+        "zh": "页",
+        "hi": "पृष्ठ",
+        "es": "página",
+        "pt": "página",
+        "ar": "صفحة",
+        "bn": "পৃষ্ঠা",
+        "fr": "page",
+        "ru": "страница",
+        "ur": "صفحہ"
+      }
+    },
+    "autor": {
+      "word": "autor",
+      "partOfSpeech": "sustantivo",
+      "definition": "Creador de una obra literaria, artística o científica.",
+      "example": "El autor desarrolló profundos temas filosóficos en la saga.",
+      "translation": {
+        "en": "author",
+        "pt": "autor",
+        "es": "autor",
+        "ru": "автор"
+      }
+    },
+    "novela": {
+      "word": "novela",
+      "partOfSpeech": "sustantivo",
+      "definition": "Narración extensa en prosa sobre sucesos ficticios.",
+      "example": "La novela distópica cautivó a generaciones de lectores.",
+      "translation": {
+        "en": "novel",
+        "pt": "romance",
+        "es": "novela",
+        "ru": "роман"
+      }
+    },
+    "pantalla": {
+      "word": "pantalla",
+      "partOfSpeech": "sustantivo",
+      "definition": "Superficie de visualización de un dispositivo electrónico.",
+      "example": "La pantalla antirreflejo ofreció un contraste similar al papel.",
+      "translation": {
+        "en": "screen",
+        "pt": "tela",
+        "es": "pantalla",
+        "ru": "экран"
+      }
+    },
+    "bisagra": {
+      "word": "bisagra",
+      "partOfSpeech": "sustantivo",
+      "definition": "Mecanismo articulado que une las dos pantallas en dispositivos plegables.",
+      "example": "El sensor de bisagra activa el diseño de doble página.",
+      "translation": {
+        "en": "hinge",
+        "pt": "dobradiça",
+        "es": "bisagra",
+        "ru": "шарнир"
+      }
+    },
+    "ampliar": {
+      "word": "ampliar",
+      "partOfSpeech": "verbo",
+      "definition": "Aumentar dinámicamente el tamaño de imagen o texto en pantalla.",
+      "example": "Usa el gesto de pellizco para ampliar los detalles gráficos.",
+      "translation": {
+        "en": "zoom",
+        "pt": "ampliar",
+        "es": "ampliar",
+        "ru": "масштабировать"
+      }
+    },
+    "gesto": {
+      "word": "gesto",
+      "partOfSpeech": "sustantivo",
+      "definition": "Movimiento táctil sobre la pantalla para ejecutar comandos.",
+      "example": "Un gesto rápido desliza hacia la siguiente página.",
+      "translation": {
+        "en": "gesture",
+        "pt": "gesto",
+        "es": "gesto",
+        "ru": "жест"
+      }
+    },
+    "fuente": {
+      "word": "fuente",
+      "partOfSpeech": "sustantivo",
+      "definition": "Familia o estilo tipográfico para caracteres y texto.",
+      "example": "Eligió la fuente Bookerly para una lectura prolongada y cómoda.",
+      "translation": {
+        "en": "font",
+        "pt": "fonte",
+        "es": "fuente",
+        "ru": "шрифт"
+      }
+    },
+    "tema": {
+      "word": "tema",
+      "partOfSpeech": "sustantivo",
+      "definition": "Paleta visual de colores como Claro, Oscuro o Sepia.",
+      "example": "El tema Sepia reduce la emisión de luz azul en la noche.",
+      "translation": {
+        "en": "theme",
+        "pt": "tema",
+        "es": "tema",
+        "ru": "тема"
+      }
+    },
+    "oscuro": {
+      "word": "oscuro",
+      "partOfSpeech": "sustantivo",
+      "definition": "Ausencia de luz; tema oscuro que reduce el deslumbramiento.",
+      "example": "El modo oscuro prolonga la batería en pantallas OLED.",
+      "translation": {
+        "en": "dark",
+        "pt": "escuro",
+        "es": "oscuro",
+        "ru": "темнота"
+      }
+    },
+    "nota": {
+      "word": "nota",
+      "partOfSpeech": "sustantivo",
+      "definition": "Apunte o comentario breve guardado durante la lectura.",
+      "example": "Subrayó la cita y agregó una nota reflexiva.",
+      "translation": {
+        "en": "note",
+        "pt": "nota",
+        "es": "nota",
+        "ru": "заметка"
+      }
+    },
+    "escribir": {
+      "word": "escribir",
+      "partOfSpeech": "verbo",
+      "definition": "Componer y registrar pensamientos mediante palabras.",
+      "example": "Los grandes novelistas escriben con profunda sensibilidad humana.",
+      "translation": {
+        "en": "write",
+        "pt": "escrever",
+        "es": "escribir",
+        "ru": "писать"
+      }
+    },
+    "voz": {
+      "word": "voz",
+      "partOfSpeech": "sustantivo",
+      "definition": "Tono característico e identidad estilística del narrador.",
+      "example": "El protagonista narra el relato con una voz reflexiva.",
+      "translation": {
+        "en": "voice",
+        "pt": "voz",
+        "es": "voz",
+        "ru": "голос"
+      }
+    },
+    "héroe": {
+      "word": "héroe",
+      "partOfSpeech": "sustantivo",
+      "definition": "Personaje principal admirado por su valentía y principios nobles.",
+      "example": "El héroe encaró grandes peligros para salvar a su pueblo.",
+      "translation": {
+        "en": "hero",
+        "pt": "herói",
+        "es": "héroe",
+        "ru": "герой"
+      }
+    },
+    "villano": {
+      "word": "villano",
+      "partOfSpeech": "sustantivo",
+      "definition": "Personaje antagonista cuyas acciones generan el conflicto central.",
+      "example": "El villano tenía motivaciones complejas y fascinantes.",
+      "translation": {
+        "en": "villain",
+        "pt": "vilão",
+        "es": "villano",
+        "ru": "злодей"
+      }
+    },
+    "trama": {
+      "word": "trama",
+      "partOfSpeech": "sustantivo",
+      "definition": "Conjunto de sucesos que configuran el argumento de una historia.",
+      "example": "El giro de la trama asombró a todos en el desenlace.",
+      "translation": {
+        "en": "plot",
+        "pt": "enredo",
+        "es": "trama",
+        "ru": "сюжет"
+      }
+    },
+    "diálogo": {
+      "word": "diálogo",
+      "partOfSpeech": "sustantivo",
+      "definition": "Conversación directa entre dos o más personajes de una obra.",
+      "example": "Un diálogo ingenioso sacó a la luz tensiones ocultas.",
+      "translation": {
+        "en": "dialogue",
+        "pt": "diálogo",
+        "es": "diálogo",
+        "ru": "диалог"
+      }
+    },
+    "pensamiento": {
+      "word": "pensamiento",
+      "partOfSpeech": "sustantivo",
+      "definition": "Idea o reflexión generada por el intelecto humano.",
+      "example": "Un solo pensamiento desató un viaje de descubrimiento.",
+      "translation": {
+        "en": "thought",
+        "pt": "pensamento",
+        "es": "pensamiento",
+        "ru": "мысль"
+      }
+    },
+    "coraje": {
+      "word": "coraje",
+      "partOfSpeech": "sustantivo",
+      "definition": "Fuerza de ánimo ante el miedo, peligro o dificultad.",
+      "example": "Requirió gran coraje desafiar el dogma establecido.",
+      "translation": {
+        "en": "courage",
+        "pt": "coragem",
+        "es": "coraje",
+        "ru": "мужество"
+      }
+    },
+    "esperanza": {
+      "word": "esperanza",
+      "partOfSpeech": "sustantivo",
+      "definition": "Estado de ánimo en el cual se cree que aquello que se desea o pretende es posible.",
+      "example": "La esperanza fue la luz constante en los momentos más oscuros.",
+      "translation": {
+        "en": "hope",
+        "pt": "esperança",
+        "es": "esperanza",
+        "ru": "надежда"
+      }
+    },
+    "sueño": {
+      "word": "sueño",
+      "partOfSpeech": "sustantivo",
+      "definition": "Ideal anhelado o serie de imágenes y sucesos que se representan al dormir.",
+      "example": "Mantuvo vivo su sueño de explorar nuevos mundos.",
+      "translation": {
+        "en": "dream",
+        "pt": "sonho",
+        "es": "sueño",
+        "ru": "мечта"
+      }
+    },
+    "sabiduría": {
+      "word": "sabiduría",
+      "partOfSpeech": "sustantivo",
+      "definition": "Grado más alto del conocimiento y la prudencia en el obrar.",
+      "example": "El sabio mentor habló con serenidad y prudencia.",
+      "translation": {
+        "en": "wisdom",
+        "pt": "sabedoria",
+        "es": "sabiduría",
+        "ru": "мудрость"
+      }
+    },
+    "viaje": {
+      "word": "viaje",
+      "partOfSpeech": "sustantivo",
+      "definition": "Travesía o recorrido transformador personal y espiritual.",
+      "example": "Cada lectura representa un viaje interior inolvidable.",
+      "translation": {
+        "en": "journey",
+        "pt": "jornada",
+        "es": "viaje",
+        "ru": "путешествие"
+      }
+    },
+    "buscar": {
+      "word": "buscar",
+      "partOfSpeech": "verbo",
+      "definition": "Indagar o procurar algo para encontrarlo.",
+      "example": "Busca en el diccionario sin conexión para traducciones inmediatas.",
+      "translation": {
+        "en": "search",
+        "pt": "buscar",
+        "es": "buscar",
+        "ru": "искать"
+      }
+    },
+    "sincronizar": {
+      "word": "sincronizar",
+      "partOfSpeech": "verbo",
+      "definition": "Hacer que dos o más procesos o datos coincidan en el tiempo.",
+      "example": "El botón de actualización permite sincronizar todos los diccionarios.",
+      "translation": {
+        "en": "sync",
+        "pt": "sincronizar",
+        "es": "sincronizar",
+        "ru": "синхронизировать"
+      }
+    },
+    "abrir": {
+      "word": "abrir",
+      "partOfSpeech": "verbo",
+      "definition": "Descubrir o destapar algo cerrado; iniciar la lectura de un libro.",
+      "example": "Abre tu novela gráfica favorita en vista de doble página.",
+      "translation": {
+        "en": "open",
+        "pt": "abrir",
+        "es": "abrir",
+        "ru": "открывать"
+      }
+    },
+    "cerrar": {
+      "word": "cerrar",
+      "partOfSpeech": "verbo",
+      "definition": "Juntar las partes separadas de algo; salir de la lectura a la biblioteca.",
+      "example": "Desliza desde el borde superior para cerrar el libro actual.",
+      "translation": {
+        "en": "close",
+        "pt": "fechar",
+        "es": "cerrar",
+        "ru": "закрывать"
+      }
+    },
+    "marcador": {
+      "word": "marcador",
+      "partOfSpeech": "sustantivo",
+      "definition": "Señal digital que indica el punto exacto de lectura alcanzado.",
+      "example": "Guardó un marcador en la página 245 del manga.",
+      "translation": {
+        "en": "bookmark",
+        "pt": "marcador",
+        "es": "marcador",
+        "ru": "закладка"
+      }
+    },
+    "compartir": {
+      "word": "compartir",
+      "partOfSpeech": "verbo",
+      "definition": "Exportar o transmitir citas y progreso de lectura a otros dispositivos.",
+      "example": "Puedes exportar el progreso y compartir citas con facilidad.",
+      "translation": {
+        "en": "share",
+        "pt": "compartilhar",
+        "es": "compartir",
+        "ru": "делиться"
+      }
+    },
+    "descargar": {
+      "word": "descargar",
+      "partOfSpeech": "verbo",
+      "definition": "Transferir archivos digitales o paquetes de datos desde la red.",
+      "example": "Descarga paquetes de diccionarios para lectura sin conexión.",
+      "translation": {
+        "en": "download",
+        "pt": "baixar",
+        "es": "descargar",
+        "ru": "скачивать"
+      }
+    },
+    "guardar": {
+      "word": "guardar",
+      "partOfSpeech": "verbo",
+      "definition": "Conservar archivos y preferencias en el almacenamiento local.",
+      "example": "El progreso se guarda automáticamente en la memoria del dispositivo.",
+      "translation": {
+        "en": "save",
+        "pt": "salvar",
+        "es": "guardar",
+        "ru": "сохранять"
+      }
+    },
+    "eliminar": {
+      "word": "eliminar",
+      "partOfSpeech": "verbo",
+      "definition": "Quitar o borrar permanentemente un libro o nota de la biblioteca.",
+      "example": "Puedes eliminar libros leídos para liberar memoria.",
+      "translation": {
+        "en": "delete",
+        "pt": "excluir",
+        "es": "eliminar",
+        "ru": "удалять"
+      }
+    },
+    "escuchar": {
+      "word": "escuchar",
+      "partOfSpeech": "verbo",
+      "definition": "Prestar atención a los sonidos; audiolibros narrados con voz natural.",
+      "example": "Escucha clásicos narrados durante tus trayectos diarios.",
+      "translation": {
+        "en": "listen",
+        "pt": "ouvir",
+        "es": "escuchar",
+        "ru": "слушать"
+      }
+    },
+    "resiliencia": {
+      "word": "resiliencia",
+      "partOfSpeech": "sustantivo",
+      "definition": "Capacidad de sobreponerse a momentos críticos y adaptarse.",
+      "example": "El protagonista mostró una profunda resiliencia ante la adversidad.",
+      "translation": {
+        "en": "resilience",
+        "zh": "韧性",
+        "hi": "लचीलापन",
+        "es": "resiliencia",
+        "pt": "resiliência",
+        "ar": "مرونة",
+        "bn": "স্থিতিস্থাপকতা",
+        "fr": "résilience",
+        "ru": "стойкость",
+        "ur": "ثابت قدمی"
+      }
+    },
+    "efímero": {
+      "word": "efímero",
+      "partOfSpeech": "adjetivo",
+      "definition": "Que tiene una duración muy breve o pasajera.",
+      "example": "El atardecer proyectó un brillo efímero sobre las páginas abiertas.",
+      "translation": {
+        "en": "ephemeral",
+        "zh": "短暂的",
+        "hi": "अल्पकालिक",
+        "es": "efímero",
+        "pt": "efêmero",
+        "ar": "عابر",
+        "bn": "ক্ষণস্থায়ী",
+        "fr": "éphémère",
+        "ru": "эфемерный",
+        "ur": "عارضی"
+      }
     }
   }
 }
